@@ -1,5 +1,6 @@
 #!/bin/bash
 # version 1.1
+# author Yu-Jung Cheng
 
 #set -o nounset
 set -o errexit
