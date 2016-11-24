@@ -17,7 +17,7 @@ OUTPUT_FILE=""
 INTERFACE=""
 DURATION=0
 STATISTIC=false
-SLEEP_INTERVAL=0.95  # second
+SLEEP_INTERVAL=0.99  # second
 
 ######################################################################
 # declaration
