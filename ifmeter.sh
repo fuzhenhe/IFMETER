@@ -17,6 +17,7 @@ OUTPUT_FILE=""
 INTERFACE=""
 DURATION=0
 STATISTIC=false
+SLEEP_INTERVAL=0.95  # second
 
 ######################################################################
 # declaration
@@ -192,7 +193,7 @@ do
   fi
 
   echo -e "\n$time"
-  sleep 1
+  sleep ${SLEEP_INTERVAL}
 
   if [ $i -eq $((${QUEUE_SIZE}-1)) ]; then
     i=-1
